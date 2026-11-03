@@ -1,0 +1,68 @@
+html {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: beige;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    color: blueviolet;
+    padding: 2rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid salmon 5px;
+    border-radius: 50px;
+    box-shadow: 2px 3px 50px aqua,
+        -4px -2px 4px teal;
+    padding: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form:hover {
+    background: linear-gradient(145deg, black, purple, orange);
+    color: chartreuse;
+}
+
+input {
+    background: linear-gradient(10deg,green,pink,blue);
+    border: solid 2px gold;
+    border-radius: 100%;
+    padding:10px;
+    
+}
+
+button {
+    margin: 0.2rem;
+    border: solid aquamarine 2px;
+    color: blueviolet;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: orangered;
+    align-self: center;
+}
+
+.messages {
+    border: solid 1px gray;
+    border-radius: 20px;
+    background-color: pink;
+    padding: 2rem;
+    text-align: center;
+}
+
+.message {
+    margin-top: 1px;
+    border: solid 1px gray;
+    border-radius: 20px;
+    background-color: lightgray;
+}
